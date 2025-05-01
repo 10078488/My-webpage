@@ -1,0 +1,5 @@
+@import "tailwindcss/preflight";
+/* stylelint-disable at-rule-no-unknown */
+/* @tailwind components; removed as not available in v4 */
+@tailwind utilities; 
+/* stylelint-enable at-rule-no-unknown */

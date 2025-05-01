@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <metaname="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tailwind-project</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./src/output.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<style>
+    h1 {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+        ;
+    }
+</style>
+
+<body class="bg-[#fafafa]">
+
+    <!--Header-->
+    <header class="lg:w-full flex lg:justify-center lg:align-middle lg:h-44  bg-[#fafafa]">
+
+        <div class="logo  flex lg:justify-center lg:w-[25%] lg:h-11 self-center  text-center ">
+            <img src="logo.png" alt="Logo" class=" lg:w-27 lg:h-11 text-center align-middle ">
+        </div>
+
+        <!--Navigation Links-->
+
+        <nav class="flex lg:justify-center lg:items-center lg:w-[45%]  lg:gap-28">
+
+            <a href="#" class="  flex justify-center lg:w-auto lg:h-auto text-[#39db4a] text-xl"
+                style="font-family: poppins,sans-serif">Home</a>
+
+            <a href="#" class=" flex text-xl text-[#272727] ">Menu
+                <i class="fa fa-chevron-down content-center text-sm px-1 text-[#39db4a]"></i>
+            </a>
+
+            <a href="#" class=" flex text-xl text-[#272727]">Services
+                <i class="fa fa-chevron-down content-center text-sm px-1 text-[#39db4a]"></i>
+            </a>
+
+            <a href="#" class=" flex text-xl text-[#272727]">Offers</a>
+
+        </nav>
+
+        <!--Search & Contact Bar-->
+
+        <div class="flex lg:w-[30%] lg:justify-center gap-16">
+
+            <div class="flex ">
+                <i class="fa fa-search content-center text-3xl p-0.5 text-[#272727]"></i>
+            </div>
+
+            <div class="flex">
+                <i class="fa fa-shopping-bag content-center text-2xl p-0.5 text-[#272727]"></i>
+            </div>
+
+            <button
+                class="bg-[#39db4a] flex lg:h-16 lg:w-44 lg:justify-center lg:align-middle items-center self-center rounded-full lg:gap-6">
+
+                <div class="flex"> <i class="fas fa-phone content-center p-0.5 text-white lg:w-6 lg:h-6 "></i></div>
+                <div class="flex lg:w-20 lg:h-8 text-xl justify-center items-center align-middle text-white">Contact
+                </div>
+
+            </button>
+        </div>
+    </header>
+    <!---Header end--->
+
+
+    <!---Main content--->
+
+
+    <div class=" items-center flex lg:w-full lg:h-2/4 bg-[#fafafa] ">
+
+
+        <div class=" flex flex-col items-center lg:w-[50%] lg:gap-10 ">
+            <h1 class=" leading-[146%] content-center self-end text-6xl lg:w-[596px] font-extrabold">Dive into
+                Delights<br> Of Delectable<span class=" leading-[146%] text-6xl pl-2 text-[#39db4a]">Food</span>
+            </h1>
+            <p class=" content-center self-end text-2xl lg:w-[596px] lg:h-[88px] text-[#4a4a4a] font-medium ">
+                Where Each Plate Weaves a Story of Culinary<br>Mastery and Passionate Craftsmanship</p>
+        </div>
+
+
+        <div class=" relative flex flex-col items-center lg:w-[50%]">
+            <div
+                class="relative text-xl content-center text-center font-semibold bg-[#fbfbfb] lg:w-[248px] lg:h-[67px] text-[#ff6868] top-[120px] left-[-384px] md:shadow-2xl rounded-bl-full rounded-tl-full rounded-tr-full ">
+                Hot spicy Food 🌶
+            </div>
+
+            <div class=" relative w-[662px] h-[654px] drop-shadow-black bg-[#53ec62] rounded-full">
+                <img src="Intersect.png" alt="intersect"
+                    class="absolute top-[-87px] left-[-20px] lg:h-[750px] lg:w-[866px]">
+            </div>
+
+            <!------List items------>
+
+            <div class=" relative left-[-35px] top-[-35px] list flex lg:gap-[30px]">
+
+                <div
+                    class="flex justify-center items-center text-left rounded-3xl drop-shadow-2xl bg-[#ffffff] lg:w-[349px] lg:h-[132px]">
+
+                    <img src="list1.png" alt="list1" class=" lg:w-[98px] lg:h-[98px] text-[#2c2c2c]">
+
+                    <div class="flex flex-col ml-6 lg:w-[150px] lg:h-[92px] justify-between">
+
+                        <p class=" lg:h-[27px] lg:w-auto text-xl font-semibold text-[#2c2c2c]">Spicy noodles</p>
+
+                        <i class=" lg:w-[64.8px] lg:h-[24px] text-[#39db4a]">★★★<span
+                                class=" lg:w-[21.6px] lg:h-[16px] text-[#afb4b7]">☆☆</span></i>
+
+                        <i class="content-center text-[#fa7474] lg:h-[29px] lg:w-[77px]">$<span
+                                class="text-[#515151]">18.00</span></i>
+
+                    </div>
+                </div>
+
+
+                <div class="flex justify-center items-center text-left rounded-3xl drop-shadow-2xl bg-[#ffffff] lg:w-[349px] lg:h-[132px]"">
+
+                            <img src=" list2.png" alt="list2" class="lg:w-[98px] lg:h-[98px] text-[#2c2c2c]">
+
+                    <div class="flex flex-col ml-6 lg:w-auto lg:h-[92px] justify-between">
+
+                        <p class=" lg:h-[27px] lg:w-auto text-xl font-semibold text-[#2c2c2c]">Vegetarian salad
+                        </p>
+
+                        <i class=" lg:w-[64.8px] lg:h-[24px] text-[#39db4a]">★★★★<span
+                                class=" lg:w-[21.6px] lg:h-[16px] text-[#afb4b7]">☆</span></i>
+
+                        <i class="content-center text-[#fa7474] lg:h-[29px] lg:w-[77px]">$<span class="text-[#515151]">
+                                23.00
+                            </span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Main Content-->
+
+
+    <!--Catagories Section-->
+
+    <div class=" align-middle mt-14 lg:w-full lg:h-auto">
+
+        <div class="flex flex-col items-center lg:gap-9 lg:w-full lg:h-auto">
+            <p class="text-xl leading-[100%] lg:w-[290px] font-bold tracking-widest text-[#ff6868]">CUSTOMER FAVORITES
+            </p>
+            <h2 class=" leading-[100%] text-6xl font-bold ">Popular Catagories</h2>
+        </div>
+
+        <div class="flex flex-row gap-x-6 mt-28  lg:justify-center lg:items-center ">
+
+            <div class=" flex flex-col items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[326px] lg:h-[326px]">
+
+                <div class=" absolute mt-9 rounded-full  lg:w-[153px] lg:h-[153px]  bg-[#c1f1c6]">
+                    <img class="relative left-[7px] top-[25.5px] lg:w-[139px] lg:h-[102px]" src="MainDish.png"
+                        alt="Dessert">
+                    <p class=" relative text-3xl top-[70px] left-[4.5px] font-semibold lg:w-36 lg:h-9">Main Dish</p>
+                    <i
+                        class="relative text-3xl top-[90px] left-[13px] text-[#555555] text-[22px] font-medium lg:w-[132px] lg:h-[27px]">(48
+                        Dishes)</i>
+                </div>
+            </div>
+
+            <div class=" flex flex-col items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[326px] lg:h-[326px]">
+
+                <div class=" absolute  mt-9 rounded-full  lg:w-[153px] lg:h-[153px]  bg-[#c1f1c6]">
+                    <img class="relative left-[7px] top-[25.5px] lg:w-[139px] lg:h-[102px]" src="Breakfast.png"
+                        alt="Dessert">
+                    <p class=" relative text-3xl top-[70px] left-[4.5px] font-semibold lg:w-36 lg:h-9">Break Fast</p>
+                    <i
+                        class="relative text-3xl top-[90px] left-[13px] text-[#555555] text-[22px] font-medium lg:w-[132px] lg:h-[27px]">(12
+                        break fast)</i>
+                </div>
+            </div>
+
+            <div class=" flex flex-col items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[326px] lg:h-[326px]">
+
+                <div class=" absolute mt-9 rounded-full  lg:w-[153px] lg:h-[153px]  bg-[#c1f1c6]">
+                    <img class="relative left-[7px] top-[25.5px] lg:w-[139px] lg:h-[102px]" src="Dessert.png"
+                        alt="Dessert">
+                    <p class=" relative text-3xl top-[70px] left-[4.5px] font-semibold lg:w-36 lg:h-9">Dessert</p>
+                    <i
+                        class="relative text-3xl top-[90px] left-[13px] text-[#555555] text-[22px] font-medium lg:w-[132px] lg:h-[27px]">(48
+                        Dessert)</i>
+                </div>
+            </div>
+
+            <div class=" flex flex-col items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[326px] lg:h-[326px]">
+
+                <div class=" absolute mt-9 rounded-full  lg:w-[153px] lg:h-[153px]  bg-[#c1f1c6]">
+                    <img class="relative left-[7px] top-[25.5px] lg:w-[139px] lg:h-[102px]" src="Browse_all.png"
+                        alt="Dessert">
+                    <p class=" relative text-3xl top-[70px] left-[4.5px] font-semibold lg:w-36 lg:h-9">Browse All</p>
+                    <i
+                        class="relative text-3xl top-[90px] left-[13px] text-[#555555] text-[22px] font-medium lg:w-[132px] lg:h-[27px]">(255
+                        items)</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Special Dishes Section----->
+
+    <div class=" mt-32 flex  lg:gap-9 lg:w-full lg:h-auto">
+
+        <div class="flex flex-col items-end lg:gap-10 lg:w-[43%] lg:h-auto">
+            <p class=" text-xl self-end ml-[47px] lg:w-[580px] lg:h-6 font-bold tracking-widest text-[#ff6868]">
+                Special Dishes</p>
+            <h2 class=" leading-[132%] text-6xl lg:w-[580px] lg:h-[auto] font-bold ">Standout Dishes<br>From Our Menu
+            </h2>
+        </div>
+
+        <div class="flex self-end justify-end lg:gap-6 lg:w-[50%] lg:h-auto">
+            <div
+                class="flex  bg-[#efefef] lg:w-20 lg:h-20 rounded-full lg:justify-center lg:align-middle lg:items-center ">
+                <i class="fa fa-chevron-left text-[#6f6e6e]"></i>
+            </div>
+
+            <div
+                class="flex  bg-[#39db4a] lg:w-20 lg:h-20 rounded-full lg:justify-center lg:align-middle lg:items-center ">
+                <i class="fa fa-chevron-right text-[#fff]"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="flex flex-row gap-6 mt-28  lg:justify-center lg:items-center ">
+        <div
+            class=" flex flex-col gap-4 p-11 items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[446px] lg:h-[523px]">
+
+            <img src="Fattoush salad.png" alt="Fattoush salad" class="lg:h-[276px] lg:w-[276px]">
+            <h4 class="text-3xl self-start font-[600] lg:w-[214px] lg:h-[36px] text-[#000]">Fattoush salad</h4>
+            <p class="text-xl self-start font-[600] lg:w-[243px] lg:h-[27px]  text-[#555]">Description of the item</p>
+            <i class="text-2xl self-start font-semibold text-[#ff6868] ">
+                $
+                <span class="text-3xl text-[#000] font-semibold">
+                    24.00
+                </span>
+            </i>
+            <div class="absolute bg-[#39db4a] flex lg:w-[87px] lg:h-[75px] top-[0px] left-[359px] 
+                 rounded-bl-4xl rounded-tr-4xl lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-white text-center font-extrabold w-6 h-6">♡</i>
+            </div>
+            <div
+                class="absolute flex lg:w-auto lg:h-auto top-[436.3px] left-[350px] lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-[#39db4a] w-6 h-6">☆</i>
+                <i class="text-[#454545] w-[38px] h-[29px]">4.9</i>
+            </div>
+        </div>
+
+        <div
+            class=" flex flex-col gap-4 p-11 items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[446px] lg:h-[523px]">
+
+            <img src="Vegetable salad.png" alt="Vegetable Salad" class="lg:h-[276px] lg:w-[276px]">
+            <h4 class="text-3xl self-start font-[600] lg:w-[233px] lg:h-[36px] text-[#000]">Vegetable salad</h4>
+            <p class="text-xl self-start font-[600] lg:w-[243px] lg:h-[27px]  text-[#555]">Description of the item</p>
+            <i class="text-2xl self-start font-semibold text-[#ff6868] ">
+                $
+                <span class="text-3xl text-[#000] font-semibold">
+                    26.00
+                </span>
+            </i>
+            <div class="absolute bg-[#39db4a] flex lg:w-[87px] lg:h-[75px] top-[0px] left-[359px] 
+                 rounded-bl-4xl rounded-tr-4xl lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-white text-center font-extrabold w-6 h-6">♡</i>
+            </div>
+            <div
+                class="absolute flex lg:w-auto lg:h-auto top-[436.3px] left-[350px] lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-[#39db4a] w-6 h-6">☆</i>
+                <i class="text-[#454545] w-[38px] h-[29px]">4.6</i>
+            </div>
+        </div>
+
+
+        <div
+            class=" flex flex-col gap-4 p-11 items-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[446px] lg:h-[523px]">
+            <img src="Egg salad.png" alt="Egg Vegi salad" class="lg:h-[276px] lg:w-[276px]">
+            <h4 class="text-3xl self-start font-[600] lg:w-[210px] lg:h-[36px] text-[#000]">Egg Vegi salad</h4>
+            <p class="text-xl self-start font-[600] lg:w-[243px] lg:h-[27px]  text-[#555]">Description of the item</p>
+            <i class="text-2xl self-start font-semibold text-[#ff6868] ">
+                $
+                <span class="text-3xl text-[#000] font-semibold">
+                    23.00
+                </span>
+            </i>
+            <div class="absolute bg-[#39db4a] flex lg:w-[87px] lg:h-[75px] top-[0px] left-[359px] 
+                 rounded-bl-4xl rounded-tr-4xl lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-white text-center font-extrabold w-6 h-6">♡</i>
+            </div>
+            <div
+                class="absolute flex lg:w-auto lg:h-auto top-[436.3px] left-[350px] lg:justify-center lg:align-middle lg:items-center">
+                <i class="text-[#39db4a] w-6 h-6">☆</i>
+                <i class="text-[#454545] w-[38px] h-[29px]">4.5</i>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Testimonials Section-->
+
+    <div class=" mt-96 flex flex-row  items-center lg:w-full  lg:h-[800px]">
+
+        <div class="flex ml-[60px] lg:w-[45%]">
+            <div
+                class="rounded-tl-[200px] rounded-tr-[200px] rounded-bl-4xl rounded-br-4xl lg:w-[492px] lg:h-[362px]  bg-[#39db4a]">
+            </div>
+            <img src="Mask group.png" alt="Mask group" class="absolute top-[2858.3px] left-[60px] ">
+
+            <div
+                class="relative text-xl content-center text-center font-semibold bg-[#fbfbfb] lg:w-[248px] lg:h-[67px] text-[#ff6868] top-[295px] left-[-110px] md:shadow-2xl  rounded-bl-full rounded-tr-full rounded-br-full">
+                Our Best Chef 😁
+            </div>
+        </div>
+
+
+
+        <div class="w-[55%] self-baseline ">
+            <p class="text-xl leading-[100%] lg:w-[290px] lg:h-6 font-bold tracking-widest text-[#ff6868]">Testimonials
+            </p>
+            <h2 class=" leading-[131%] mt-9 text-6xl font-bold">What Our Customers<br> Say About Us</h2>
+            <p class="text-[26px] mt-9 leading-[159%] lg:w-auto lg:h-auto font-medium tracking-wider text-[#ff6868]">“I
+                had the pleasure of dining at Foodi last night, and<br>
+                I'm still raving about the experience! The attention to<br>
+                detail in presentation and service was impeccable”</p>
+
+            <div class="flex  mt-10 lg:w-full">
+
+                <div class="flex lg:w-1/2 justify-center">
+                    <img class="1 lg:w-20 lg:h-20 rounded-full bg-[#fee8ac]" src="Mask_group1.png">
+                    <img class="relative left-[-25px] lg:w-20 lg:h-20  " src="Mask_group2.png">
+                    <img class="relative left-[-55px] lg:w-20 lg:h-20" src="Mask_group3.png">
+                </div>
+
+                <div class="flex flex-col gap-1 lg:w-1/2  lg:h-full">
+                    <h5 class="text-[26px] font-semibold text-[#000]">Customer Feedback</h5>
+                    <div class="flex flex-row text-center content-between lg:w-full lg:h-auto gap-6 ">
+                        <i
+                            class="text-[#454545] text-2xl leading-[100%] content-center font-semibold w-[38px] h-[29px]"><span
+                                class="text-[#39db4a] w-6 h-6">☆</span>4.9</i>
+                        <i class="text-[#555555] text-[22px] font-medium lg:w-[181px] lg:h-[29px]">(18.6k Reviews)</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!---Testimonials Section end--->
+
+
+    <!---Story & Services Section--->
+
+    <div class="  mt-32 flex  lg:gap-9 lg:w-full lg:h-auto">
+
+        <div class=" flex flex-col items-end lg:gap-10 lg:w-[50%] lg:h-auto">
+            <p class=" text-xl self-end ml-[47px] lg:w-[599px] lg:h-6 font-bold tracking-widest text-[#ff6868]">Our
+                Story & Services
+            </p>
+            <h2 class=" content-center self-end leading-[100%] text-6xl lg:w-[600px] lg:h-[146px] font-bold ">
+                Our Culinary Journey<br> And Services
+            </h2>
+            <p class="text-xl self-end ml-[47px] lg:w-[600px] lg:h-[126px] font-bold tracking-widest text-[#ff6868]">
+                Rootedin passion, we curate unforgettable dining<br>
+                experiences and offer exceptional services,<br>
+                blending culinary artistry with warm hospitality.
+            </p>
+            <button
+                class="bg-[#39db4a] flex self-center lg:w-[215px] lg:h-[80px] lg:justify-center lg:align-middle items-center rounded-full lg:gap-6">
+                <div
+                    class="flex lg:w-[95px] lg:h-[31px] text-[26px] font-semibold justify-center items-center align-middle text-white">
+                    Explore
+                </div>
+            </button>
+        </div>
+
+        <!-- cols part -->
+
+        <div class="flex flex-wrap justify-center lg:w-1/2 gap-6  ">
+
+            <div
+                class=" gap-4 justify-center content-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[277px] lg:h-[297.15px]">
+                <div class=" flex flex-col gap-4 items-center text-center lg:w-full lg:h-auto  ">
+                    <img src="fi-rr-salad.png" alt="Fattoush salad" class=" lg:h-[64px] lg:w-[64px]">
+                    <h4 class="text-2xl font-[600] lg:w-[123px] lg:h-[29px] text-[#5fe26c]">
+                        Catering
+                    </h4>
+                    <p class="text-xl font-[600] lg:w-[220px] lg:h-auto  text-[#90bd95]">
+                        Delight your guests<br>
+                        withour flavors and<br>
+                        presentation
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div
+                class=" gap-4 justify-center content-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[277px] lg:h-[297.15px]">
+                <div class=" flex flex-col gap-4 items-center text-center lg:w-full lg:h-auto  ">
+                    <img src="fi-rr-time-fast.png" alt="Fattoush salad" class=" lg:h-[64px] lg:w-[64px]">
+                    <h4 class="text-2xl font-[600] lg:w-[185px] lg:h-[29px] text-[#5fe26c]">
+                        Fast Delivery
+                    </h4>
+                    <p class="text-xl font-[600] lg:w-[236px] lg:h-auto text-[#90bd95]">
+                        We deliver your order <br>
+                        promptly to your door<br>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div
+                class=" gap-4 justify-center content-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[277px] lg:h-[297.15px]">
+                <div class=" flex flex-col gap-4 items-center text-center lg:w-full lg:h-auto  ">
+                    <img src="fi-rr-shopping-cart-check.png" alt="Fattoush salad" class=" lg:h-[64px] lg:w-[64px]">
+                    <h4 class="text-2xl font-[600] lg:w-[220px] lg:h-[29px] text-[#5fe26c]">
+                        Online ORDERING
+                    </h4>
+                    <p class="text-xl font-[600] lg:w-[220px] lg:h-auto  text-[#90bd95]">
+                        Explore menu & order<br>
+                        with ease using our <br>
+                        Online Ordering
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div
+                class=" gap-4 justify-center content-center rounded-4xl drop-shadow-2xl bg-[#FFFFFF] lg:w-[277px] lg:h-[297.15px]">
+                <div class=" flex flex-col gap-4 items-center text-center lg:w-full lg:h-auto  ">
+                    <img src="fi-rr-gift.png" alt="Fattoush salad" class=" lg:h-[64px] lg:w-[64px]">
+                    <h4 class="text-2xl font-[600] lg:w-[146px] lg:h-[29px] text-[#5fe26c]">
+                        GIFT CARDS
+                    </h4>
+                    <p class="text-xl font-[600] lg:w-[236px] lg:h-auto  text-[#90bd95]">
+                        Give the gift of <br>
+                        exceptional dining with<br>
+                        Food Gift Cards
+                    </p>
+                </div>
+            </div>
+        </div> <!-- cols part end -->
+    </div><!---Story & Services Section end--->
+
+
+
+    <!---Footer Section--->
+
+    <footer class="mt-40">
+
+        <div class="flex lg:w-full gap-24 lg:h-auto">
+
+            <div class="flex flex-col gap-8 lg:w-1/5 ">
+                <img src="logo.png " alt="footer" class=" lg:w-27 lg:h-11 self-center">
+                <p class="text-[#555] self-end font-medium leading-[151%] text-[22px] lg:w-[235px] lg:h-auto">Savor the
+                    artistry where<br>every dish is a culinary<br>masterpiece</p>
+            </div>
+
+
+            <div class="flex flex-col items-baseline gap-8 lg:w-1/5">
+                <p class="text-[26px] font-semibold leading-[100%] text-[#000] text-center lg:w-[147px] lg:h-[31px]">
+                    Useful links</p>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[103px] lg:h-[29px]">About
+                    us </a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[103px] lg:h-[29px]">Events</a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[103px] lg:h-[29px]">Blogs</a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[103px] lg:h-[29px]">FAQ</a>
+            </div>
+
+
+            <div class="flex flex-col items-baseline gap-8 lg:w-1/5">
+                <p class="text-[26px] font-semibold leading-[100%] text-[#000] text-center lg:w-[139px] lg:h-[31px]">
+                    Main Menu</p>
+
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[68px] lg:h-[29px]">Home
+                </a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[72px] lg:h-[29px]">Offers</a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[79px] lg:h-[29px]">Menus</a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[137px] lg:h-[29px]">Reservation</a>
+            </div>
+
+
+            <div class="flex flex-col items-baseline gap-8 lg:w-1/5">
+                <p class="text-[26px] font-semibold leading-[100%] text-[#000] text-center lg:w-[14qpx] lg:h-[31px]">
+                    Contact Us</p>
+
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[237px] lg:h-[29px]">example@email.com
+                </a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[203px] lg:h-[29px]">+64
+                    958 248 966</a>
+                <a href="#"
+                    class="text-[#555] leading-[100%] font-medium text-center text-[24px] lg:w-[146px] lg:h-[29px]">Social
+                    media</a>
+            </div>
+        </div>
+
+
+        <div class="flex lg:w-full lg:h-auto content-baseline gap-[140px] mt-32 ">
+
+
+            <div class="flex lg:w-auto gap-6 ml-[90px] lg:h-auto">
+
+                <div class="bg-[#39db4a] justify-items-center content-center lg:w-[58px]  lg:h-[57px] rounded-full">
+                    <img src="🦆 icon _facebook_.png" class="lg:w-[14px] lg:h-[25.45px]  text-white  ">
+                </div>
+
+                <div class="bg-[#edefef] justify-items-center content-center lg:w-[57px]  lg:h-[57px] rounded-full">
+                    <img src="🦆 icon _instagram_.png" class="lg:w-[22px] lg:h-[22px]  text-white  ">
+                </div>
+
+                <div class="bg-[#edefef] justify-items-center content-center lg:w-[58px]  lg:h-[57px] rounded-full">
+                    <img src="🦆 icon _twitter_.png" class="lg:w-[26px] lg:h-[21.21px]  text-white  ">
+                </div>
+
+                <div class="bg-[#edefef] justify-items-center content-center lg:w-[58px]  lg:h-[57px] rounded-full">
+                    <img src="🦆 icon _youtube_.png" class="lg:w-[27px] lg:h-[19.17px]  text-white  ">
+                </div>
+            </div>
+
+
+            <div class="flex lg:w-auto lg:h-auto">
+                <small
+                    class="flex  text-[#555] leading-[100%] self-center font-medium text-center text-[24px] lg:w-auto lg:h-[27px]">©
+                    Copyright 2023 Dscode | All rights reserved</small>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
